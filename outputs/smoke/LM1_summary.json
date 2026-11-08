@@ -1,0 +1,77 @@
+{
+  "site": {
+    "id": "LM1",
+    "name": "Shackleton Rim B",
+    "lat": -89.5244,
+    "lon": 56.30993,
+    "elev_m": -27.784672,
+    "source": "csv",
+    "tags": []
+  },
+  "step_min": 60.0,
+  "has_horizon_mask": true,
+  "solar": {
+    "sunlit_pct": 62.5,
+    "longest_sunlight_h": 19.0,
+    "longest_darkness_h": 18.0,
+    "mean_sun_alt_when_lit_deg": 0.7355616300286087,
+    "max_sun_alt_deg": 4.997207818651273,
+    "min_sun_alt_deg": -4.997207818651273,
+    "hours_to_sunset_at_t0": 11.0,
+    "hours_to_sunrise_at_t0": 0.0
+  },
+  "dte": {
+    "earth_visible_pct": 60.416666666666664,
+    "longest_dte_h": 29.0,
+    "longest_dte_blackout_h": 17.0,
+    "n_blackouts": 2,
+    "n_windows": 1,
+    "mean_margin_when_visible_deg": 5.123820499345609,
+    "hours_to_earthset_at_t0": 0.0,
+    "hours_to_earthrise_at_t0": 17.0
+  },
+  "power": {
+    "mean_power_w": 8.196053035215487,
+    "mean_power_when_lit_w": 13.11368485634478,
+    "peak_power_w": 33.10073422509352,
+    "total_energy_kwh": 0.3934105456903434,
+    "mean_energy_per_earth_day_kwh": 0.1967052728451717,
+    "duty_cycle_producing_pct": 35.41666666666667,
+    "longest_zero_power_h": 18.0,
+    "min_battery_soc_pct": 23.670527284517195,
+    "ends_battery_soc_pct": 23.670527284517195,
+    "energy_margin_vs_load_kwh": -1.5265894543096565,
+    "viable_for_load": true
+  },
+  "array": {
+    "nameplate_w": 400,
+    "area_m2": 2.0,
+    "efficiency": 0.3,
+    "use_nameplate": true,
+    "tilt_deg": 0.0,
+    "tracking": "fixed",
+    "dust_factor": 1.0,
+    "temp_derate": 0.95,
+    "min_elevation_deg": 0.0,
+    "night_draw_w": 40,
+    "battery_wh": 2000.0
+  },
+  "terrain": {
+    "mean_slope_deg": 14.426258087158203,
+    "max_slope_deg": 72.67726135253906,
+    "relief_proxy_m": NaN,
+    "pct_slope_le_5deg": 1.357484502264172,
+    "pct_slope_le_10deg": 17.498561015490093,
+    "pct_slope_le_15deg": 57.316408498413296,
+    "pct_slope_le_20deg": 87.87534573831365,
+    "relief_m": 1175.25,
+    "flat_circle_le_5deg_m": 116.61903789690601,
+    "flat_circle_le_10deg_m": 208.80613017821102,
+    "site_slope_deg": 17.96996307373047,
+    "radius_m": 2500.0,
+    "metres_per_pixel": 10.0,
+    "terrain_score": 56.7,
+    "slope_limit_deg": 10.0,
+    "passes_slope_limit": false
+  }
+}

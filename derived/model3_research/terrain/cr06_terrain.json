@@ -1,0 +1,73 @@
+{
+  "name": "cr06",
+  "site_id": "CR06",
+  "lat": -89.444,
+  "lon": -137.291,
+  "grid_px": [
+    401,
+    401
+  ],
+  "site_pixel": [
+    200.0,
+    200.0
+  ],
+  "metres_per_pixel": 5.0,
+  "metres_per_pixel_xy": [
+    5.0,
+    5.0
+  ],
+  "source_metres_per_pixel": 5.0,
+  "site_elevation_m": 1955.8531494140625,
+  "aspect_reference": "clockwise from local true north; downslope direction",
+  "roughness_definition": "local elevation standard deviation",
+  "roughness_window_pixels": 5,
+  "roughness_window_approx_m": 25.0,
+  "grid_half_width_m": 1000.0,
+  "footprint_radius_m": 1000.0,
+  "valid_grid_pixels": 160801,
+  "grid_coverage_pct": 100.0,
+  "valid_grid_area_km2": 4.020025,
+  "relief_min_m": -296.114501953125,
+  "relief_max_m": 3.595458984375,
+  "grid_slope_stats_native_resolution": {
+    "area_below_5deg_pct": 21.05,
+    "area_below_10deg_pct": 58.54,
+    "area_below_15deg_pct": 85.69,
+    "area_below_20deg_pct": 98.44
+  },
+  "north_xy": [
+    -0.6782751,
+    -0.73480806
+  ],
+  "east_xy": [
+    -0.73480797,
+    0.6782752
+  ],
+  "dem_file": "ldem_87s_5mpp.tif",
+  "source_crs": "PROJCS[\"Moon2000_spole\",GEOGCS[\"GCS_Moon\",DATUM[\"D_Moon_2000\",SPHEROID[\"Moon_2000_IAU_IAG\",1737400,0]],PRIMEM[\"Reference_Meridian\",0],UNIT[\"degree\",0.0174532925199433,AUTHORITY[\"EPSG\",\"9122\"]]],PROJECTION[\"Polar_Stereographic\"],PARAMETER[\"latitude_of_origin\",-90],PARAMETER[\"central_meridian\",0],PARAMETER[\"false_easting\",0],PARAMETER[\"false_northing\",0],UNIT[\"metre\",1],AXIS[\"Easting\",NORTH],AXIS[\"Northing\",NORTH]]",
+  "source_transform": [
+    5.0,
+    0.0,
+    -100000.0,
+    0.0,
+    -5.0,
+    100000.0,
+    0.0,
+    0.0,
+    1.0
+  ],
+  "source_nodata": NaN,
+  "elevation_scale": 1.0,
+  "elevation_offset": 0.0,
+  "scaling_method": "command line",
+  "auxiliary_layers": {
+    "count": {
+      "file": "ldec_87s_5mpp.tif",
+      "scale": 1.0,
+      "offset": 0.0,
+      "units": "count"
+    }
+  },
+  "grid_convention": "x grows with column, y decreases with row; site_pixel locates the site",
+  "note": "height_m is relative to the site; slope derived at native DEM resolution before block averaging; nodata retained."
+}

@@ -1,0 +1,5 @@
+site_id,site_name,timeline_samples,visible_samples,visibility_percent,longest_visible_run_samples,longest_visible_run_minutes,longest_blackout_samples,longest_blackout_minutes,sample_interval_minutes,timeline_start_utc,timeline_end_utc
+LM1,Shackleton Rim B,12824,6876,53.6182,2190,21900.0,1734,17340.0,10.0,2026-10-15T00:00:00 UTC,2027-01-12T01:10:00 UTC
+Site06,Nobile Rim 1,12824,4545,35.4414,1556,15560.0,2427,24270.0,10.0,2026-10-15T00:00:00 UTC,2027-01-12T01:10:00 UTC
+Site20,Leibnitz Beta Plateau,12824,6483,50.5536,2056,20560.0,1878,18780.0,10.0,2026-10-15T00:00:00 UTC,2027-01-12T01:10:00 UTC
+Site23,Malapert Massif,12824,5926,46.2102,1911,19110.0,2005,20050.0,10.0,2026-10-15T00:00:00 UTC,2027-01-12T01:10:00 UTC

@@ -1,0 +1,462 @@
+LUNAR DATASET INVENTORY
+Directory: /home/deshan7/Desktop/clpsdatasets
+Files found: 26
+LDEC_80S_20MPP_ADJ.tiff                                     979.84 MiB
+LDEM_80S_20MPP_ADJ.tiff                                    2571.18 MiB
+LPSR_80S_20MPP_ADJ.tiff                                     147.08 MiB
+NAC_DTM_TYCHOPK.TIF                                        1442.64 MiB
+NAC_DTM_TYCHOPK_CONF.IMG                                    360.61 MiB
+NAC_DTM_TYCHOPK_SHADE.TIF                                   360.84 MiB
+NAC_DTM_TYCHOPK_SLOPE.TIF                                  1082.04 MiB
+NAC_DTM_VIKRAMSITE1.TIF                                     465.07 MiB
+NAC_DTM_VIKRAMSITE1_CONF.IMG                                116.24 MiB
+NAC_DTM_VIKRAMSITE1_M1442997156_3M.IMG                      232.49 MiB
+NAC_DTM_VIKRAMSITE1_SLOPE.TIF                               348.83 MiB
+Site01_final_adj_5mpp_surf.tif                               39.08 MiB
+collection_data_derived_pcp.xml                               0.01 MiB
+collection_data_derived_pcp_inventory.csv                     0.08 MiB
+de421 (1).bsp                                                16.01 MiB
+diviner_tbol_max_anom (1).xyz                                 7.65 MiB
+diviner_tbol_max_anom.xyz                                     7.65 MiB
+diviner_tbol_min_anom (1).xyz                                 7.61 MiB
+diviner_tbol_min_anom.xyz                                     7.61 MiB
+ldec_87s_5mpp.tif                                           139.14 MiB
+ldem_87s_5mpp.tif                                          2220.40 MiB
+moon_080317.tf                                                0.02 MiB
+moon_pa_de421_1900-2050 (1).bpc                               1.69 MiB
+naif0012.tls                                                  0.01 MiB
+pck00010.tpc                                                  0.12 MiB
+sp_illum_10deg_2026_1080p30.mp4                             176.53 MiB
+
+===========================================================================
+RASTER: LDEC_80S_20MPP_ADJ.tiff
+===========================================================================
+Dimensions: 30400 x 30400
+Bands: 1
+Data types: ('float32',)
+CRS: PROJCS["Moon (2015) - Sphere / Ocentric / South Polar",GEOGCS["Moon (2015) - Sphere / Ocentric",DATUM["Moon (2015) - Sphere",SPHEROID["Moon (2015) - Sphere",1737400,0,AUTHORITY["IAU","30100"]],AUTHORITY["IAU","30100"]],PRIMEM["Reference Meridian",0,AUTHORITY["IAU","30100"]],UNIT["degree",0.0174532925199433,AUTHORITY["EPSG","9122"]],AUTHORITY["IAU","30100"]],PROJECTION["Polar_Stereographic"],PARAMETER["latitude_of_origin",-90],PARAMETER["central_meridian",0],PARAMETER["false_easting",0],PARAMETER["false_northing",0],UNIT["metre",1,AUTHORITY["EPSG","9001"]],AXIS["Easting",NORTH],AXIS["Northing",NORTH],AUTHORITY["IAU","30135"]]
+Transform: | 20.00, 0.00,-304000.00|
+| 0.00,-20.00, 304000.00|
+| 0.00, 0.00, 1.00|
+Bounds: BoundingBox(left=-304000.0, bottom=-304000.0, right=304000.0, top=304000.0)
+Nodata: nan
+Pixel size: (20.0, 20.0)
+Units: (None,)
+Descriptions: (None,)
+Tags: {'NC_GLOBAL#Conventions': 'CF-1.7', 'NC_GLOBAL#GMT_version': '6.4.0_47aa941_2022.04.11 [64-bit]', 'NC_GLOBAL#history': 'gmt grdblend blendTiles_doAll2_slp2_20mpp_ldec.list -I0.02 -R-310/310/-310/310 -G/dev/shm/ldem_80s_final_adj_20mpp_ldec.grd -r', 'NC_GLOBAL#node_offset': '1', 'x#actual_range': '{-310,310}', 'x#axis': 'X', 'x#long_name': 'x', 'y#actual_range': '{-310,310}', 'y#axis': 'Y', 'y#long_name': 'y', 'z#actual_range': '{0,16}', 'z#long_name': 'z', 'z#_FillValue': 'nan', 'AREA_OR_POINT': 'Area'}
+
+Band 1:
+  Sample count: 2093809
+  Min: -0.05130092427134514
+  Max: 4.161426544189453
+  Mean: 0.45271173119544983
+  Median: 0.35735294222831726
+  Std: 0.3510391116142273
+
+===========================================================================
+RASTER: LDEM_80S_20MPP_ADJ.tiff
+===========================================================================
+Dimensions: 30400 x 30400
+Bands: 1
+Data types: ('float32',)
+CRS: PROJCS["Moon (2015) - Sphere / Ocentric / South Polar",GEOGCS["Moon (2015) - Sphere / Ocentric",DATUM["Moon (2015) - Sphere",SPHEROID["Moon (2015) - Sphere",1737400,0,AUTHORITY["IAU","30100"]],AUTHORITY["IAU","30100"]],PRIMEM["Reference Meridian",0,AUTHORITY["IAU","30100"]],UNIT["degree",0.0174532925199433,AUTHORITY["EPSG","9122"]],AUTHORITY["IAU","30100"]],PROJECTION["Polar_Stereographic"],PARAMETER["latitude_of_origin",-90],PARAMETER["central_meridian",0],PARAMETER["false_easting",0],PARAMETER["false_northing",0],UNIT["metre",1,AUTHORITY["EPSG","9001"]],AXIS["Easting",NORTH],AXIS["Northing",NORTH],AUTHORITY["IAU","30135"]]
+Transform: | 20.00, 0.00,-304000.00|
+| 0.00,-20.00, 304000.00|
+| 0.00, 0.00, 1.00|
+Bounds: BoundingBox(left=-304000.0, bottom=-304000.0, right=304000.0, top=304000.0)
+Nodata: nan
+Pixel size: (20.0, 20.0)
+Units: (None,)
+Descriptions: (None,)
+Tags: {'NC_GLOBAL#Conventions': 'CF-1.7', 'NC_GLOBAL#GMT_version': '6.5.0_2402709_2023.01.09 [64-bit]', 'NC_GLOBAL#history': 'gmt grdmath ldem_80s_final_adj_20mpp_surf.grd 1000.0 MUL = test2.grd', 'NC_GLOBAL#node_offset': '1', 'NC_GLOBAL#title': 'Produced by grdmath', 'x#actual_range': '{-310,310}', 'x#axis': 'X', 'x#long_name': 'x', 'y#actual_range': '{-310,310}', 'y#axis': 'Y', 'y#long_name': 'y', 'z#actual_range': '{-7296.787109375,7027.2294921875}', 'z#long_name': 'z', 'z#_FillValue': 'nan', 'AREA_OR_POINT': 'Area'}
+
+Band 1:
+  Sample count: 2093809
+  Min: -7256.39697265625
+  Max: 7012.31982421875
+  Mean: -1500.593994140625
+  Median: -1721.85205078125
+  Std: 2059.288330078125
+
+===========================================================================
+RASTER: LPSR_80S_20MPP_ADJ.tiff
+===========================================================================
+Dimensions: 30400 x 30400
+Bands: 1
+Data types: ('float32',)
+CRS: PROJCS["Moon (2015) - Sphere / Ocentric / South Polar",GEOGCS["Moon (2015) - Sphere / Ocentric",DATUM["Moon (2015) - Sphere",SPHEROID["Moon (2015) - Sphere",1737400,0,AUTHORITY["IAU","30100"]],AUTHORITY["IAU","30100"]],PRIMEM["Reference Meridian",0,AUTHORITY["IAU","30100"]],UNIT["degree",0.0174532925199433,AUTHORITY["EPSG","9122"]],AUTHORITY["IAU","30100"]],PROJECTION["Polar_Stereographic"],PARAMETER["latitude_of_origin",-90],PARAMETER["central_meridian",0],PARAMETER["false_easting",0],PARAMETER["false_northing",0],UNIT["metre",1,AUTHORITY["EPSG","9001"]],AXIS["Easting",NORTH],AXIS["Northing",NORTH],AUTHORITY["IAU","30135"]]
+Transform: | 20.00, 0.00,-304000.00|
+| 0.00,-20.00, 304000.00|
+| 0.00, 0.00, 1.00|
+Bounds: BoundingBox(left=-304000.0, bottom=-304000.0, right=304000.0, top=304000.0)
+Nodata: nan
+Pixel size: (20.0, 20.0)
+Units: (None,)
+Descriptions: (None,)
+Tags: {'NC_GLOBAL#Conventions': 'CF-1.7', 'NC_GLOBAL#GMT_version': '6.5.0_daaa813_2022.09.22 [64-bit]', 'NC_GLOBAL#node_offset': '1', 'NC_GLOBAL#title': 'Produced by grdcut', 'x#actual_range': '{-304000,304000}', 'x#axis': 'X', 'x#long_name': 'x', 'y#actual_range': '{-304000,304000}', 'y#axis': 'Y', 'y#long_name': 'y', 'z#actual_range': '{0,1}', 'z#long_name': 'z', 'z#_FillValue': 'nan', 'AREA_OR_POINT': 'Area'}
+
+Band 1:
+  Sample count: 2093809
+  Min: -0.10989607125520706
+  Max: 1.1535096168518066
+  Mean: 0.0604868121445179
+  Median: 0.0
+  Std: 0.22243067622184753
+
+===========================================================================
+RASTER: NAC_DTM_TYCHOPK.TIF
+===========================================================================
+Dimensions: 12240 x 30892
+Bands: 1
+Data types: ('float32',)
+CRS: PROJCS["Equirectangular Moon",GEOGCS["GCS_Moon",DATUM["D_Moon",SPHEROID["Moon_localRadius",1737400,0]],PRIMEM["Reference_Meridian",0],UNIT["degree",0.0174532925199433,AUTHORITY["EPSG","9122"]]],PROJECTION["Equirectangular"],PARAMETER["standard_parallel_1",-43.3],PARAMETER["central_meridian",348.6],PARAMETER["false_easting",0],PARAMETER["false_northing",0],UNIT["metre",1,AUTHORITY["EPSG","9001"]],AXIS["Easting",EAST],AXIS["Northing",NORTH]]
+Transform: | 2.00, 0.00,-11842.00|
+| 0.00,-2.00,-1284704.00|
+| 0.00, 0.00, 1.00|
+Bounds: BoundingBox(left=-11842.0, bottom=-1346488.0, right=12638.0, top=-1284704.0)
+Nodata: -3.4028226550889045e+38
+Pixel size: (2.0, 2.0)
+Units: (None,)
+Descriptions: (None,)
+Tags: {'AREA_OR_POINT': 'Area'}
+
+Band 1:
+  Sample count: 570071
+  Min: -3549.96728515625
+  Max: 0.0
+  Mean: -3023.041748046875
+  Median: -3217.3486328125
+  Std: 615.1556396484375
+
+===========================================================================
+RASTER: NAC_DTM_TYCHOPK_CONF.IMG
+===========================================================================
+Dimensions: 12240 x 30892
+Bands: 1
+Data types: ('uint8',)
+CRS: PROJCS["EQUIRECTANGULAR MOON",GEOGCS["GCS_MOON",DATUM["D_MOON",SPHEROID["MOON_localRadius",1737400,0]],PRIMEM["Reference_Meridian",0],UNIT["degree",0.0174532925199433,AUTHORITY["EPSG","9122"]]],PROJECTION["Equirectangular"],PARAMETER["standard_parallel_1",-43.3],PARAMETER["central_meridian",348.6],PARAMETER["false_easting",0],PARAMETER["false_northing",0],UNIT["metre",1,AUTHORITY["EPSG","9001"]],AXIS["Easting",EAST],AXIS["Northing",NORTH]]
+Transform: | 2.00, 0.00,-11840.00|
+| 0.00,-2.00,-1284706.00|
+| 0.00, 0.00, 1.00|
+Bounds: BoundingBox(left=-11840.0, bottom=-1346490.0, right=12640.0, top=-1284706.0)
+Nodata: 0.0
+Pixel size: (2.0, 2.0)
+Units: (None,)
+Descriptions: (None,)
+Tags: {'FILTER_NAME': '', 'DATA_SET_ID': '"LRO-L-LROC-5-RDR-V1.0"', 'PRODUCT_ID': 'NAC_DTM_TYCHOPK_CONF', 'PRODUCER_INSTITUTION_NAME': '"ARIZONA STATE UNIVERSITY"', 'PRODUCT_TYPE': 'RDR', 'MISSION_NAME': '', 'SPACECRAFT_NAME': '', 'INSTRUMENT_NAME': '"LUNAR RECONNAISSANCE ORBITER CAMERA"', 'INSTRUMENT_ID': 'LROC', 'TARGET_NAME': 'MOON', 'CENTER_FILTER_WAVELENGTH': '', 'BANDWIDTH': '', 'PRODUCT_CREATION_TIME': '2023-03-07T10:59:47', 'START_TIME': '2010-03-31T03:45:31', 'STOP_TIME': '2017-12-06T21:11:12', 'NOTE': ''}
+
+Band 1:
+  Sample count: 567274
+  Min: 1.0
+  Max: 18.0
+  Mean: 13.371273846500985
+  Median: 14.0
+  Std: 2.1471203617026395
+
+===========================================================================
+RASTER: NAC_DTM_TYCHOPK_SHADE.TIF
+===========================================================================
+Dimensions: 12240 x 30892
+Bands: 1
+Data types: ('uint8',)
+CRS: PROJCS["Equirectangular Moon",GEOGCS["GCS_Moon",DATUM["D_Moon",SPHEROID["Moon_localRadius",1737400,0]],PRIMEM["Reference_Meridian",0],UNIT["degree",0.0174532925199433,AUTHORITY["EPSG","9122"]]],PROJECTION["Equirectangular"],PARAMETER["standard_parallel_1",-43.3],PARAMETER["central_meridian",348.6],PARAMETER["false_easting",0],PARAMETER["false_northing",0],UNIT["metre",1,AUTHORITY["EPSG","9001"]],AXIS["Easting",EAST],AXIS["Northing",NORTH]]
+Transform: | 2.00, 0.00,-11842.00|
+| 0.00,-2.00,-1284704.00|
+| 0.00, 0.00, 1.00|
+Bounds: BoundingBox(left=-11842.0, bottom=-1346488.0, right=12638.0, top=-1284704.0)
+Nodata: 0.0
+Pixel size: (2.0, 2.0)
+Units: (None,)
+Descriptions: (None,)
+Tags: {'AREA_OR_POINT': 'Area'}
+
+Band 1:
+  Sample count: 567471
+  Min: 1.0
+  Max: 255.0
+  Mean: 171.8270501928733
+  Median: 178.0
+  Std: 40.43659088870922
+
+===========================================================================
+RASTER: NAC_DTM_TYCHOPK_SLOPE.TIF
+===========================================================================
+Dimensions: 12240 x 30892
+Bands: 3
+Data types: ('uint8', 'uint8', 'uint8')
+CRS: PROJCS["Equirectangular Moon",GEOGCS["GCS_Moon",DATUM["D_Moon",SPHEROID["Moon_localRadius",1737400,0]],PRIMEM["Reference_Meridian",0],UNIT["degree",0.0174532925199433,AUTHORITY["EPSG","9122"]]],PROJECTION["Equirectangular"],PARAMETER["standard_parallel_1",-43.3],PARAMETER["central_meridian",348.6],PARAMETER["false_easting",0],PARAMETER["false_northing",0],UNIT["metre",1,AUTHORITY["EPSG","9001"]],AXIS["Easting",EAST],AXIS["Northing",NORTH]]
+Transform: | 2.00, 0.00,-11842.00|
+| 0.00,-2.00,-1284704.00|
+| 0.00, 0.00, 1.00|
+Bounds: BoundingBox(left=-11842.0, bottom=-1346488.0, right=12638.0, top=-1284704.0)
+Nodata: None
+Pixel size: (2.0, 2.0)
+Units: (None, None, None)
+Descriptions: (None, None, None)
+Tags: {'AREA_OR_POINT': 'Area'}
+
+Band 1:
+  Sample count: 856122
+  Min: 0.0
+  Max: 252.0
+  Mean: 99.76390397630244
+  Median: 108.0
+  Std: 83.41238982937116
+
+Band 2:
+  Sample count: 856122
+  Min: 0.0
+  Max: 235.0
+  Mean: 102.15417195212832
+  Median: 126.0
+  Std: 82.2354252326458
+
+Band 3:
+  Sample count: 856122
+  Min: 0.0
+  Max: 222.0
+  Mean: 96.25322909585316
+  Median: 126.0
+  Std: 78.19792882769167
+
+===========================================================================
+RASTER: NAC_DTM_VIKRAMSITE1.TIF
+===========================================================================
+Dimensions: 7668 x 15895
+Bands: 1
+Data types: ('float32',)
+CRS: PROJCS["PolarStereographic Moon",GEOGCS["GCS_Moon",DATUM["D_Moon",SPHEROID["Moon_polarRadius",1737400,0]],PRIMEM["Reference_Meridian",0],UNIT["degree",0.0174532925199433,AUTHORITY["EPSG","9122"]]],PROJECTION["Polar_Stereographic"],PARAMETER["latitude_of_origin",-69.3],PARAMETER["central_meridian",32.3],PARAMETER["false_easting",0],PARAMETER["false_northing",0],UNIT["metre",1],AXIS["Easting",NORTH],AXIS["Northing",NORTH]]
+Transform: | 3.00, 0.00,-11046.00|
+| 0.00,-3.00, 638262.00|
+| 0.00, 0.00, 1.00|
+Bounds: BoundingBox(left=-11045.999999996, bottom=590576.9999998059, right=11957.999999996331, top=638261.99999979)
+Nodata: -3.4028226550889045e+38
+Pixel size: (2.999999999999, 2.999999999999)
+Units: (None,)
+Descriptions: (None,)
+Tags: {'AREA_OR_POINT': 'Area'}
+
+Band 1:
+  Sample count: 318117
+  Min: 327.4753112792969
+  Max: 1256.211669921875
+  Mean: 676.5230102539062
+  Median: 604.1934204101562
+  Std: 171.36849975585938
+
+===========================================================================
+RASTER: NAC_DTM_VIKRAMSITE1_CONF.IMG
+===========================================================================
+Dimensions: 7668 x 15895
+Bands: 1
+Data types: ('uint8',)
+CRS: PROJCS["POLAR_STEREOGRAPHIC MOON",GEOGCS["GCS_MOON",DATUM["D_MOON",SPHEROID["MOON_polarRadius",1737400,0]],PRIMEM["Reference_Meridian",0],UNIT["degree",0.0174532925199433,AUTHORITY["EPSG","9122"]]],PROJECTION["Polar_Stereographic"],PARAMETER["latitude_of_origin",-69.3],PARAMETER["central_meridian",32.3],PARAMETER["false_easting",0],PARAMETER["false_northing",0],UNIT["unknown",1],AXIS["Easting",NORTH],AXIS["Northing",NORTH]]
+Transform: | 3.00, 0.00,-11043.00|
+| 0.00,-3.00, 638259.00|
+| 0.00, 0.00, 1.00|
+Bounds: BoundingBox(left=-11042.999999996018, bottom=590573.9999998031, right=11960.999999996313, top=638258.9999997872)
+Nodata: 0.0
+Pixel size: (2.999999999999, 2.999999999999)
+Units: (None,)
+Descriptions: (None,)
+Tags: {'FILTER_NAME': '', 'DATA_SET_ID': '"LRO-L-LROC-5-RDR-V1.0"', 'PRODUCT_ID': 'NAC_DTM_VIKRAMSITE1_CONF', 'PRODUCER_INSTITUTION_NAME': '"ARIZONA STATE UNIVERSITY"', 'PRODUCT_TYPE': 'RDR', 'MISSION_NAME': '', 'SPACECRAFT_NAME': '', 'INSTRUMENT_NAME': '"LUNAR RECONNAISSANCE ORBITER CAMERA"', 'INSTRUMENT_ID': 'LROC', 'TARGET_NAME': 'MOON', 'CENTER_FILTER_WAVELENGTH': '', 'BANDWIDTH': '', 'PRODUCT_CREATION_TIME': '2023-11-09T01:12:30', 'START_TIME': '2023-07-03T04:18:08', 'STOP_TIME': '2023-07-03T12:06:53', 'NOTE': ''}
+
+Band 1:
+  Sample count: 318117
+  Min: 3.0
+  Max: 15.0
+  Mean: 13.533030300172578
+  Median: 14.0
+  Std: 2.10543885236098
+
+===========================================================================
+RASTER: NAC_DTM_VIKRAMSITE1_M1442997156_3M.IMG
+===========================================================================
+Dimensions: 7668 x 15895
+Bands: 1
+Data types: ('uint16',)
+CRS: PROJCS["POLAR_STEREOGRAPHIC MOON",GEOGCS["GCS_MOON",DATUM["D_MOON",SPHEROID["MOON_polarRadius",1737400,0]],PRIMEM["Reference_Meridian",0],UNIT["degree",0.0174532925199433,AUTHORITY["EPSG","9122"]]],PROJECTION["Polar_Stereographic"],PARAMETER["latitude_of_origin",-69.3],PARAMETER["central_meridian",32.3],PARAMETER["false_easting",0],PARAMETER["false_northing",0],UNIT["unknown",1],AXIS["Easting",NORTH],AXIS["Northing",NORTH]]
+Transform: | 3.00, 0.00,-11043.00|
+| 0.00,-3.00, 638259.00|
+| 0.00, 0.00, 1.00|
+Bounds: BoundingBox(left=-11042.999999996018, bottom=590573.9999998031, right=11960.999999996313, top=638258.9999997872)
+Nodata: 0.0
+Pixel size: (2.999999999999, 2.999999999999)
+Units: (None,)
+Descriptions: (None,)
+Tags: {'FILTER_NAME': '', 'DATA_SET_ID': '"LRO-L-LROC-5-RDR-V1.0"', 'PRODUCT_ID': 'NAC_DTM_VIKRAMSITE1_M1442997156_3M', 'PRODUCER_INSTITUTION_NAME': '"ARIZONA STATE UNIVERSITY"', 'PRODUCT_TYPE': 'RDR', 'MISSION_NAME': '', 'SPACECRAFT_NAME': '', 'INSTRUMENT_NAME': '"LUNAR RECONNAISSANCE ORBITER CAMERA"', 'INSTRUMENT_ID': 'LROC', 'TARGET_NAME': 'MOON', 'CENTER_FILTER_WAVELENGTH': '', 'BANDWIDTH': '', 'PRODUCT_CREATION_TIME': '2023-11-09T01:13:46', 'START_TIME': '2023-07-03T04:18:08', 'STOP_TIME': '2023-07-03T04:18:38', 'NOTE': ''}
+
+Band 1:
+  Sample count: 316305
+  Min: 1.0
+  Max: 5634.0
+  Mean: 1586.6133036151816
+  Median: 1577.0
+  Std: 452.46234288109525
+
+===========================================================================
+RASTER: NAC_DTM_VIKRAMSITE1_SLOPE.TIF
+===========================================================================
+Dimensions: 7668 x 15895
+Bands: 3
+Data types: ('uint8', 'uint8', 'uint8')
+CRS: PROJCS["PolarStereographic Moon",GEOGCS["GCS_Moon",DATUM["D_Moon",SPHEROID["Moon_polarRadius",1737400,0]],PRIMEM["Reference_Meridian",0],UNIT["degree",0.0174532925199433,AUTHORITY["EPSG","9122"]]],PROJECTION["Polar_Stereographic"],PARAMETER["latitude_of_origin",-69.3],PARAMETER["central_meridian",32.3],PARAMETER["false_easting",0],PARAMETER["false_northing",0],UNIT["metre",1],AXIS["Easting",NORTH],AXIS["Northing",NORTH]]
+Transform: | 3.00, 0.00,-11046.00|
+| 0.00,-3.00, 638262.00|
+| 0.00, 0.00, 1.00|
+Bounds: BoundingBox(left=-11045.999999996, bottom=590576.9999998059, right=11957.999999996331, top=638261.99999979)
+Nodata: None
+Pixel size: (2.999999999999, 2.999999999999)
+Units: (None, None, None)
+Descriptions: (None, None, None)
+Tags: {'AREA_OR_POINT': 'Area'}
+
+Band 1:
+  Sample count: 1007165
+  Min: 0.0
+  Max: 248.0
+  Mean: 29.736470191080905
+  Median: 0.0
+  Std: 49.249330771485255
+
+Band 2:
+  Sample count: 1007165
+  Min: 0.0
+  Max: 235.0
+  Mean: 39.546746560891215
+  Median: 0.0
+  Std: 61.20325562829853
+
+Band 3:
+  Sample count: 1007165
+  Min: 0.0
+  Max: 222.0
+  Mean: 49.18261456663009
+  Median: 0.0
+  Std: 73.28227484994308
+
+===========================================================================
+RASTER: Site01_final_adj_5mpp_surf.tif
+===========================================================================
+Dimensions: 3200 x 3200
+Bands: 1
+Data types: ('float32',)
+CRS: PROJCS["unnamed",GEOGCS["unnamed ellipse",DATUM["unknown",SPHEROID["unnamed",1737400,0]],PRIMEM["Greenwich",0],UNIT["degree",0.0174532925199433,AUTHORITY["EPSG","9122"]]],PROJECTION["Polar_Stereographic"],PARAMETER["latitude_of_origin",-90],PARAMETER["central_meridian",0],PARAMETER["false_easting",0],PARAMETER["false_northing",0],UNIT["metre",1],AXIS["Easting",NORTH],AXIS["Northing",NORTH]]
+Transform: | 5.00, 0.00,-19000.00|
+| 0.00,-5.00,-4000.00|
+| 0.00, 0.00, 1.00|
+Bounds: BoundingBox(left=-19000.0, bottom=-20000.0, right=-3000.0, top=-4000.0)
+Nodata: nan
+Pixel size: (5.0, 5.0)
+Units: (None,)
+Descriptions: (None,)
+Tags: {'NC_GLOBAL#Conventions': 'COARDS, CF-1.5', 'NC_GLOBAL#GMT_version': '5.4.5 [64-bit]', 'NC_GLOBAL#history': 'xyz2grd -bi3 -I5 -R-1.90000000000e+04/-3.00000000000e+03/-2.00000000000e+04/-4.00000000000e+03 -Gtest.grd -r', 'NC_GLOBAL#node_offset': '1', 'x#actual_range': '{-19000,-3000}', 'x#long_name': 'x', 'y#actual_range': '{-20000,-4000}', 'y#long_name': 'y', 'z#actual_range': '{-523.1834106445312,1959.496215820312}', 'z#long_name': 'z', 'z#_FillValue': 'nan', 'AREA_OR_POINT': 'Area'}
+
+Band 1:
+  Sample count: 1136356
+  Min: -520.58642578125
+  Max: 1959.02001953125
+  Mean: 1139.0693359375
+  Median: 1200.27001953125
+  Std: 422.2759704589844
+
+===========================================================================
+TEXT DATA: collection_data_derived_pcp_inventory.csv
+===========================================================================
+Header/sample: P,urn:nasa:pds:lro_diviner_derived1:data_derived_pcp:pcp_avg_tbol_poln_sum_ltim01_240::1.0
+Header/sample: P,urn:nasa:pds:lro_diviner_derived1:data_derived_pcp:pcp_avg_tbol_poln_sum_ltim02_240::1.0
+Header/sample: P,urn:nasa:pds:lro_diviner_derived1:data_derived_pcp:pcp_avg_tbol_poln_sum_ltim03_240::1.0
+Header/sample: P,urn:nasa:pds:lro_diviner_derived1:data_derived_pcp:pcp_avg_tbol_poln_sum_ltim04_240::1.0
+Header/sample: P,urn:nasa:pds:lro_diviner_derived1:data_derived_pcp:pcp_avg_tbol_poln_sum_ltim05_240::1.0
+Total non-comment lines: 912
+Numeric rows sampled: 0
+
+===========================================================================
+TEXT DATA: diviner_tbol_max_anom (1).xyz
+===========================================================================
+Total non-comment lines: 259200
+Numeric rows sampled: 10000
+Numeric columns: 3
+Column 1: min=-179.75, max=-166.25, mean=-173.054
+Column 2: min=-89.75, max=89.75, mean=-0.56
+Column 3: min=-78.1453, max=82.036, mean=-0.0453096
+First numeric row: [-179.75, -89.75, 54.420355]
+
+===========================================================================
+TEXT DATA: diviner_tbol_max_anom.xyz
+===========================================================================
+Total non-comment lines: 259200
+Numeric rows sampled: 10000
+Numeric columns: 3
+Column 1: min=-179.75, max=-166.25, mean=-173.054
+Column 2: min=-89.75, max=89.75, mean=-0.56
+Column 3: min=-78.1453, max=82.036, mean=-0.0453096
+First numeric row: [-179.75, -89.75, 54.420355]
+
+===========================================================================
+TEXT DATA: diviner_tbol_min_anom (1).xyz
+===========================================================================
+Total non-comment lines: 259200
+Numeric rows sampled: 10000
+Numeric columns: 3
+Column 1: min=-179.75, max=-166.25, mean=-173.054
+Column 2: min=-89.75, max=89.75, mean=-0.56
+Column 3: min=-29.7346, max=21.4761, mean=0.305321
+First numeric row: [-179.75, -89.75, 8.328243]
+
+===========================================================================
+TEXT DATA: diviner_tbol_min_anom.xyz
+===========================================================================
+Total non-comment lines: 259200
+Numeric rows sampled: 10000
+Numeric columns: 3
+Column 1: min=-179.75, max=-166.25, mean=-173.054
+Column 2: min=-89.75, max=89.75, mean=-0.56
+Column 3: min=-29.7346, max=21.4761, mean=0.305321
+First numeric row: [-179.75, -89.75, 8.328243]
+
+===========================================================================
+RASTER: ldec_87s_5mpp.tif
+===========================================================================
+Dimensions: 40000 x 40000
+Bands: 1
+Data types: ('uint8',)
+CRS: PROJCS["Moon2000_spole",GEOGCS["GCS_Moon",DATUM["D_Moon_2000",SPHEROID["Moon_2000_IAU_IAG",1737400,0]],PRIMEM["Reference_Meridian",0],UNIT["degree",0.0174532925199433,AUTHORITY["EPSG","9122"]]],PROJECTION["Polar_Stereographic"],PARAMETER["latitude_of_origin",-90],PARAMETER["central_meridian",0],PARAMETER["false_easting",0],PARAMETER["false_northing",0],UNIT["metre",1],AXIS["Easting",NORTH],AXIS["Northing",NORTH]]
+Transform: | 5.00, 0.00,-100000.00|
+| 0.00,-5.00, 100000.00|
+| 0.00, 0.00, 1.00|
+Bounds: BoundingBox(left=-100000.0, bottom=-100000.0, right=100000.0, top=100000.0)
+Nodata: None
+Pixel size: (5.0, 5.0)
+Units: (None,)
+Descriptions: (None,)
+Tags: {'NC_GLOBAL#Conventions': 'CF-1.7', 'NC_GLOBAL#GMT_version': '6.3.0_dbe9ff0_2021.06.08 [64-bit]', 'NC_GLOBAL#history': 'grdblend blendTiles_doAll_noCorners_87_ldec.list -I0.005 -R-100/100/-100/100 -G/dev/shm/ldem_87s_final_adj_5mpp_ldec.grd -r', 'NC_GLOBAL#node_offset': '1', 'x#actual_range': '{-100,100}', 'x#long_name': 'x', 'y#actual_range': '{-100,100}', 'y#long_name': 'y', 'z#actual_range': '{0,5}', 'z#long_name': 'z', 'z#_FillValue': 'nan', 'AREA_OR_POINT': 'Area'}
+
+Band 1:
+  Sample count: 2193361
+  Min: 0.0
+  Max: 4.0
+  Mean: 0.058244858005590504
+  Median: 0.0
+  Std: 0.24377301976922583
+
+===========================================================================
+RASTER: ldem_87s_5mpp.tif
+===========================================================================
+Dimensions: 40000 x 40000
+Bands: 1
+Data types: ('float32',)
+CRS: PROJCS["Moon2000_spole",GEOGCS["GCS_Moon",DATUM["D_Moon_2000",SPHEROID["Moon_2000_IAU_IAG",1737400,0]],PRIMEM["Reference_Meridian",0],UNIT["degree",0.0174532925199433,AUTHORITY["EPSG","9122"]]],PROJECTION["Polar_Stereographic"],PARAMETER["latitude_of_origin",-90],PARAMETER["central_meridian",0],PARAMETER["false_easting",0],PARAMETER["false_northing",0],UNIT["metre",1],AXIS["Easting",NORTH],AXIS["Northing",NORTH]]
+Transform: | 5.00, 0.00,-100000.00|
+| 0.00,-5.00, 100000.00|
+| 0.00, 0.00, 1.00|
+Bounds: BoundingBox(left=-100000.0, bottom=-100000.0, right=100000.0, top=100000.0)
+Nodata: nan
+Pixel size: (5.0, 5.0)
+Units: (None,)
+Descriptions: (None,)
+Tags: {'NC_GLOBAL#Conventions': 'CF-1.7', 'NC_GLOBAL#GMT_version': '6.3.0_dbe9ff0_2021.06.08 [64-bit]', 'NC_GLOBAL#history': 'grdblend blendTiles_doAll_noCorners_87_all.list -I0.005 -R-100/100/-100/100 -G/dev/shm/ldem_87s_final_adj_5mpp_surf.grd -r', 'NC_GLOBAL#node_offset': '1', 'x#actual_range': '{-100,100}', 'x#long_name': 'x', 'y#actual_range': '{-100,100}', 'y#long_name': 'y', 'z#actual_range': '{-4.380517959594727,2.713087320327759}', 'z#long_name': 'z', 'z#_FillValue': 'nan', 'AREA_OR_POINT': 'Area'}
+RASTER INSPECTION ERROR: RasterioIOError('Read failed. See previous exception for details.')
+
+INSPECTION COMPLETE
+No source datasets were modified.

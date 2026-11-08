@@ -1,0 +1,66 @@
+{
+  "name": "mmo02",
+  "site_id": "MMO02",
+  "lat": -85.481,
+  "lon": 29.549,
+  "grid_px": [
+    101,
+    101
+  ],
+  "site_pixel": [
+    50.0,
+    50.0
+  ],
+  "metres_per_pixel": 20.0,
+  "metres_per_pixel_xy": [
+    20.0,
+    20.0
+  ],
+  "source_metres_per_pixel": 20.0,
+  "site_elevation_m": 6183.24169921875,
+  "aspect_reference": "clockwise from local true north; downslope direction",
+  "roughness_definition": "local elevation standard deviation",
+  "roughness_window_pixels": 3,
+  "roughness_window_approx_m": 60.0,
+  "grid_half_width_m": 1000.0,
+  "footprint_radius_m": 1000.0,
+  "valid_grid_pixels": 10201,
+  "grid_coverage_pct": 100.0,
+  "valid_grid_area_km2": 4.0804,
+  "relief_min_m": -228.23828125,
+  "relief_max_m": 6.921875,
+  "grid_slope_stats_native_resolution": {
+    "area_below_5deg_pct": 24.66,
+    "area_below_10deg_pct": 71.04,
+    "area_below_15deg_pct": 98.19,
+    "area_below_20deg_pct": 99.98
+  },
+  "north_xy": [
+    0.49316772,
+    0.86993425
+  ],
+  "east_xy": [
+    0.86993369,
+    -0.49316871
+  ],
+  "dem_file": "LDEM_80S_20MPP_ADJ.tiff",
+  "source_crs": "PROJCS[\"Moon (2015) - Sphere / Ocentric / South Polar\",GEOGCS[\"Moon (2015) - Sphere / Ocentric\",DATUM[\"Moon (2015) - Sphere\",SPHEROID[\"Moon (2015) - Sphere\",1737400,0,AUTHORITY[\"IAU\",\"30100\"]],AUTHORITY[\"IAU\",\"30100\"]],PRIMEM[\"Reference Meridian\",0,AUTHORITY[\"IAU\",\"30100\"]],UNIT[\"degree\",0.0174532925199433,AUTHORITY[\"EPSG\",\"9122\"]],AUTHORITY[\"IAU\",\"30100\"]],PROJECTION[\"Polar_Stereographic\"],PARAMETER[\"latitude_of_origin\",-90],PARAMETER[\"central_meridian\",0],PARAMETER[\"false_easting\",0],PARAMETER[\"false_northing\",0],UNIT[\"metre\",1,AUTHORITY[\"EPSG\",\"9001\"]],AXIS[\"Easting\",NORTH],AXIS[\"Northing\",NORTH],AUTHORITY[\"IAU\",\"30135\"]]",
+  "source_transform": [
+    20.0,
+    0.0,
+    -304000.0,
+    0.0,
+    -20.0,
+    304000.0,
+    0.0,
+    0.0,
+    1.0
+  ],
+  "source_nodata": NaN,
+  "elevation_scale": 1.0,
+  "elevation_offset": 0.0,
+  "scaling_method": "command line",
+  "auxiliary_layers": {},
+  "grid_convention": "x grows with column, y decreases with row; site_pixel locates the site",
+  "note": "height_m is relative to the site; slope derived at native DEM resolution before block averaging; nodata retained."
+}

@@ -1,0 +1,5 @@
+site_id,site_name,latitude,longitude,samples,sunlight_percent,longest_sunlight_hours,longest_darkness_hours
+LM1,Shackleton Rim B,-89.5244,56.30993,12824,55.9576,399.667,319.167
+Site06,Nobile Rim 1,-85.4381,37.36667,12824,35.3868,223.833,351.0
+Site20,Leibnitz Beta Plateau,-85.4266,31.74276,12824,45.5006,353.0,372.167
+Site23,Malapert Massif,-85.9948,-0.23578,12824,44.4947,169.5,249.5

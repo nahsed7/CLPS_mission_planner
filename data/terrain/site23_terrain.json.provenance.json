@@ -1,0 +1,93 @@
+{
+  "tool": "datakit 0.1",
+  "created_utc": "2026-11-06T12:22:05+00:00",
+  "command": "tools/datakit.py dem --dem /home/deshan7/Desktop/clpsdatasets/LDEM_80S_20MPP_ADJ.tiff --dem /home/deshan7/Desktop/clpsdatasets/ldem_87s_5mpp.tif --dem /home/deshan7/Desktop/clpsdatasets/Site01_final_adj_5mpp_surf.tif --sites data/sample_sites.csv --products terrain --radius 1000 --footprint-radius 1000 --max-grid 512 --count /home/deshan7/Desktop/clpsdatasets/LDEC_80S_20MPP_ADJ.tiff --count /home/deshan7/Desktop/clpsdatasets/ldec_87s_5mpp.tif --scale 1 --offset 0 --allow-assumed-scaling --slope-check-units degrees --out derived/model3 --allow-large",
+  "source": [
+    {
+      "path": "/home/deshan7/Desktop/clpsdatasets/LDEM_80S_20MPP_ADJ.tiff",
+      "size_bytes": 2696082051,
+      "sha256_first_last_MB": "2a258e605050843c4398327fdab8560f2bd9dbb4b7ae4ebd1f3007e7d36ecdc8"
+    }
+  ],
+  "parameters": {
+    "radius_m": 1000.0,
+    "max_grid": 512,
+    "scale": 1.0,
+    "offset": 0.0,
+    "scale_how": "command line",
+    "selection_rule": "finest DEM that covers the complete requested footprint",
+    "candidate_dem_files": [
+      "LDEM_80S_20MPP_ADJ.tiff",
+      "ldem_87s_5mpp.tif",
+      "Site01_final_adj_5mpp_surf.tif"
+    ],
+    "auxiliary_layers": {},
+    "assume_crs": null
+  },
+  "terrain_metadata": {
+    "name": "site23",
+    "site_id": "Site23",
+    "lat": -85.9948,
+    "lon": -0.23578,
+    "grid_px": [
+      101,
+      101
+    ],
+    "site_pixel": [
+      50.0,
+      50.0
+    ],
+    "metres_per_pixel": 20.0,
+    "metres_per_pixel_xy": [
+      20.0,
+      20.0
+    ],
+    "source_metres_per_pixel": 20.0,
+    "site_elevation_m": 4783.236328125,
+    "aspect_reference": "clockwise from local true north; downslope direction",
+    "roughness_definition": "local elevation standard deviation",
+    "roughness_window_pixels": 3,
+    "roughness_window_approx_m": 60.0,
+    "grid_half_width_m": 1000.0,
+    "footprint_radius_m": 1000.0,
+    "valid_grid_pixels": 10201,
+    "grid_coverage_pct": 100.0,
+    "valid_grid_area_km2": 4.0804,
+    "relief_min_m": -208.916015625,
+    "relief_max_m": 75.30615234375,
+    "grid_slope_stats_native_resolution": {
+      "area_below_5deg_pct": 22.35,
+      "area_below_10deg_pct": 60.92,
+      "area_below_15deg_pct": 85.49,
+      "area_below_20deg_pct": 99.2
+    },
+    "north_xy": [
+      -0.00411513,
+      0.99999153
+    ],
+    "east_xy": [
+      0.99999154,
+      0.00411412
+    ],
+    "dem_file": "LDEM_80S_20MPP_ADJ.tiff",
+    "source_crs": "PROJCS[\"Moon (2015) - Sphere / Ocentric / South Polar\",GEOGCS[\"Moon (2015) - Sphere / Ocentric\",DATUM[\"Moon (2015) - Sphere\",SPHEROID[\"Moon (2015) - Sphere\",1737400,0,AUTHORITY[\"IAU\",\"30100\"]],AUTHORITY[\"IAU\",\"30100\"]],PRIMEM[\"Reference Meridian\",0,AUTHORITY[\"IAU\",\"30100\"]],UNIT[\"degree\",0.0174532925199433,AUTHORITY[\"EPSG\",\"9122\"]],AUTHORITY[\"IAU\",\"30100\"]],PROJECTION[\"Polar_Stereographic\"],PARAMETER[\"latitude_of_origin\",-90],PARAMETER[\"central_meridian\",0],PARAMETER[\"false_easting\",0],PARAMETER[\"false_northing\",0],UNIT[\"metre\",1,AUTHORITY[\"EPSG\",\"9001\"]],AXIS[\"Easting\",NORTH],AXIS[\"Northing\",NORTH],AUTHORITY[\"IAU\",\"30135\"]]",
+    "source_transform": [
+      20.0,
+      0.0,
+      -304000.0,
+      0.0,
+      -20.0,
+      304000.0,
+      0.0,
+      0.0,
+      1.0
+    ],
+    "source_nodata": NaN,
+    "elevation_scale": 1.0,
+    "elevation_offset": 0.0,
+    "scaling_method": "command line",
+    "auxiliary_layers": {},
+    "grid_convention": "x grows with column, y decreases with row; site_pixel locates the site",
+    "note": "height_m is relative to the site; slope derived at native DEM resolution before block averaging; nodata retained."
+  }
+}
